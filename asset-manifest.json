@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/billy-moore/treasure-game/static/css/main.c41acbec.chunk.css",
+    "main.js": "/billy-moore/treasure-game/static/js/main.3fff7edd.chunk.js",
+    "main.js.map": "/billy-moore/treasure-game/static/js/main.3fff7edd.chunk.js.map",
+    "runtime-main.js": "/billy-moore/treasure-game/static/js/runtime-main.4ddf8786.js",
+    "runtime-main.js.map": "/billy-moore/treasure-game/static/js/runtime-main.4ddf8786.js.map",
+    "static/css/2.87d4210f.chunk.css": "/billy-moore/treasure-game/static/css/2.87d4210f.chunk.css",
+    "static/js/2.5250161c.chunk.js": "/billy-moore/treasure-game/static/js/2.5250161c.chunk.js",
+    "static/js/2.5250161c.chunk.js.map": "/billy-moore/treasure-game/static/js/2.5250161c.chunk.js.map",
+    "index.html": "/billy-moore/treasure-game/index.html",
+    "precache-manifest.0c8390210ff1638702a58dbac7dee2aa.js": "/billy-moore/treasure-game/precache-manifest.0c8390210ff1638702a58dbac7dee2aa.js",
+    "service-worker.js": "/billy-moore/treasure-game/service-worker.js",
+    "static/css/2.87d4210f.chunk.css.map": "/billy-moore/treasure-game/static/css/2.87d4210f.chunk.css.map",
+    "static/css/main.c41acbec.chunk.css.map": "/billy-moore/treasure-game/static/css/main.c41acbec.chunk.css.map",
+    "static/js/2.5250161c.chunk.js.LICENSE.txt": "/billy-moore/treasure-game/static/js/2.5250161c.chunk.js.LICENSE.txt",
+    "static/media/Landscape1.png": "/billy-moore/treasure-game/static/media/Landscape1.bd166282.png",
+    "static/media/Landscape6.png": "/billy-moore/treasure-game/static/media/Landscape6.3268a09b.png",
+    "static/media/LandscapeX.png": "/billy-moore/treasure-game/static/media/LandscapeX.ca2573ae.png",
+    "static/media/Lost.png": "/billy-moore/treasure-game/static/media/Lost.42cdcd01.png",
+    "static/media/Manchado.png": "/billy-moore/treasure-game/static/media/Manchado.876d337f.png",
+    "static/media/OntheRun.png": "/billy-moore/treasure-game/static/media/OntheRun.6b610795.png",
+    "static/media/Tombstone.png": "/billy-moore/treasure-game/static/media/Tombstone.d53e7ad1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ddf8786.js",
+    "static/css/2.87d4210f.chunk.css",
+    "static/js/2.5250161c.chunk.js",
+    "static/css/main.c41acbec.chunk.css",
+    "static/js/main.3fff7edd.chunk.js"
+  ]
+}
