@@ -2,7 +2,7 @@
   "name": "treasure-hunt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sfbilly.github.io/treasure-game",
+  "homepage": "https://billy-moore.github.io/treasure-game",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

@@ -16,16 +16,16 @@ const Shuffle = ( props ) => {
         dispatch({type: 'setUpBoard'})
     }
 
-    const buttonOn = <button type = 'button' className = 'nes-btn' onClick = { myShuffleHandler }>Explore!</button>
-    const buttonOff = <button type = 'button' className = 'nes-btn is-disabled' >Explore!</button>
+    const buttonOn = <button type = 'button' className = 'nes-btn' onClick = { myShuffleHandler }>Change Map</button>
+    const buttonOff = <button type = 'button' className = 'nes-btn is-disabled' >Change Map</button>
     
     return (
 
         <div className = { classes.Shuffle } >
-            <div className = { classes.Title} >New Dig Site?</div>
-            <div className = { classes.Button }>
+            {/* <div className = { classes.Title} >New Dig Site?</div> */}
+            <span className = { classes.Button }>
              {state.display.length === 0 || state.popUpDisplay === true ? buttonOff : buttonOn}
-            </div>
+            </span>
         </div>
     )
 }

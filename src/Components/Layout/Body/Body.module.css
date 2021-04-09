@@ -7,7 +7,7 @@
     'Points Points Diggable Diggable'
     'Shovel Store Health Health'
     'Shovel Store Shuffle Shuffle';
-    grid-template-rows: 1fr .13fr .13fr .13fr;
+    grid-template-rows: 410px 55px 80px 80px;
     grid-template-columns: repeat(4, 1fr);
     background: #fec35a;
     justify-self: center;

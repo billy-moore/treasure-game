@@ -5,7 +5,7 @@ import { Context } from '../HOCs/Context/Context'
 import Header from './Header/Header'
 import DialogBox from '../HOCs/PopUpOverlay/DialogBox/DialogBox'
 import Body from './Body/Body'
-import Footer from './Footer/Footer'
+//import Footer from './Footer/Footer'
 
 import classes from './Layout.module.css'
 
@@ -18,16 +18,12 @@ const Layout = () => {
         console.log(state.info)
     }
 
-    const Dialog = <DialogBox />
-    const Main = <Body />
-    const Swapper = state.info === true ? Dialog : Main
-
     return (
 
             <div className = { classes.Layout }>
                 <Header clicked = { myInfoToggleHandler }/>
-                {Swapper}
-                <Footer />
+                {state.info === true ? <DialogBox /> : <Body />}
+                {/* <Footer /> */}
             </div>
     )
 }
