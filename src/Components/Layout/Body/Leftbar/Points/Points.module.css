@@ -1,0 +1,53 @@
+.Points {
+    display: grid;
+    grid-area: Points;
+    grid-template-areas: 'InfoL InfoR' 'ScoresL ScoresR';
+    justify-items: center;
+    align-items: center;
+    background: #f26649;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+}
+
+.ScoresL {
+    display: grid;
+    grid-area: ScoresL;
+    justify-self: center;
+    align-self: center;
+    /* font-size: 1.5rem; */
+}
+
+
+.ScoresR {
+    display: grid;
+    grid-area: ScoresR;
+    justify-self: center;
+    align-self: center;
+    /* font-size: 1.5rem; */
+
+}
+
+.InfoL {
+    display: grid;
+    grid-area: InfoL;
+    justify-self: center;
+    align-self: center;
+}
+
+.InfoR {
+    display: grid;
+    grid-area: InfoR;
+    justify-self: center;
+}
+
+/* @media (min-width: 400px){
+    .Points {
+        border-top: 4px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+} */

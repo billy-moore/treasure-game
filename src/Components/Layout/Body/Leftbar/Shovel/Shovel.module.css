@@ -1,0 +1,62 @@
+.Shovel {
+    display: grid;
+    grid-area: Shovel;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: 'Shovel''Info';
+    background: #fec35a;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    border-bottom: 4px solid black;
+}
+
+.Six {
+    background: #f7941d;
+}
+
+.Four {
+     background: #f26522;
+    /* */
+}
+
+.Two {
+     background: #f26522;
+}
+
+.One {
+    background: #c1272d ;
+    color: white;
+}
+
+.Zero {
+    background: #ed1c24;
+}
+
+.Shovel img {
+
+    display: grid;
+    grid-area: Shovel;
+    align-self: center;
+    justify-self: center;
+    height: 130px;
+}
+
+.Info {
+    display: grid;
+    grid-area: Info;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+
+
+@media (min-width: 400px){
+    .Shovel{
+        border-left: 4px solid black;
+        border-right: 2px solid black;
+        border-top: 1px solid black;
+        border-bottom: 4px solid black;
+    }
+    
+}

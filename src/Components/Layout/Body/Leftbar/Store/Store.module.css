@@ -1,0 +1,22 @@
+.Store {
+    display: grid;
+    grid-area: Store;
+    grid-template-areas: 'Meds' 'NewShovel';
+    grid-template-rows: 1fr 1fr;
+    background: white;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 4px solid black;
+}
+
+/* @media (min-width: 400px) {
+    .Store {
+        border-top: 4px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+
+    }
+} */

@@ -1,0 +1,18 @@
+.ShovelContainer {
+    display: grid;
+    grid-area: NewShovel;
+}
+
+.Icon {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Icon img {
+    height: 60px;
+}
+
+.InfoOff {
+    color: #86a6b2;
+}

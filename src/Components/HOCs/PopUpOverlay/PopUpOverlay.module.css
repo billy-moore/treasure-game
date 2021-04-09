@@ -1,0 +1,178 @@
+
+.Popup {
+    display: grid;
+    font-family: 'Press Start 2P', cursive;
+    height: 410px;
+    overflow: hidden;
+}
+
+
+.Broke {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    color: white;
+}
+
+.Broke h2 {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+}
+
+.Broke button{
+    display: grid;
+    align-self: end;
+    background: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Coins {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #fec35a;
+    color: white;
+}
+.Coins img {
+    display: grid;
+    justify-self: center;
+    width: 45%;
+}
+.Coins h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.Coins button{
+    display: grid;
+    justify-self: center;
+    align-self: end;
+    background: #39b54a;
+    padding: .5rem;
+    font-size: 1.1rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Dead {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    color: white;
+}
+.Dead img {
+    display: grid;
+    justify-self: center;
+    padding-bottom: .5rem;
+    width: 60%;
+}
+.Dead h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.Dead button{
+    display: grid;
+    justify-self: center;
+    align-self: end;
+    background: white;
+    padding: .5rem;
+    font-size: 1.1rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Gold {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #fec35a;
+    color: white;
+}
+
+.Gold img {
+    display: grid;
+    justify-self: center;
+    width: 40%;
+}
+
+.Gold h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+    padding: .4rem;
+    font-size: 1rem;
+}
+
+.Gold button{
+    display: grid;
+    justify-self: center;
+    align-self: end;
+    background: #39b54a;
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.Scorpion {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #fec35a;
+    color: white;
+}
+.Scorpion img {
+    display: grid;
+    justify-self: center;
+    width: 30%;
+}
+.Scorpion h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.Scorpion button{
+    display: grid;
+    justify-self: center;
+    align-self: top;
+    background: #bc8cbf;
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.Rock {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #fec35a;
+    color: white;
+}
+.Rock img {
+    display: grid;
+    justify-self: center;
+    width: 40%;
+}
+.Rock h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.Rock button{
+    display: grid;
+    justify-self: center;
+    align-self: end;
+    background: #65583c;
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}

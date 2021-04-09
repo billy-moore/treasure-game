@@ -1,0 +1,7 @@
+.Footer {
+    display: grid;
+    grid-area: Footer;
+    background: #c2602e;
+    height: 60px;
+    bottom: 0;
+}

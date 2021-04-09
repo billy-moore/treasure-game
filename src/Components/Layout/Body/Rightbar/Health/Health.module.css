@@ -1,0 +1,53 @@
+.HealthContainer {
+    display: grid;
+    grid-area: Health;
+    background: #bbb8dc;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+}
+
+.HealthBar {
+    display: grid;
+    grid-template-areas: 'LeftHeart RightHeart';
+}
+
+.Heart {
+    width: 60px;
+    justify-self: center;
+    align-self: center;
+    padding: .5rem;
+}
+
+.HealthAlt {
+    display: grid;
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 60px;
+    /* line-height: 2.6rem;
+    /* justify-content: center;
+    align-content: center; */
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+    /* font-size: 1.2rem; */
+    font-family: 'Press Start 2P', cursive;
+    /* box-sizing: border-box; */
+}
+
+/* @media (min-width: 400px){
+    .HealthContainer {
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .Heart {
+        width: 75%;
+        justify-self: center;
+        align-self: center;
+        padding: .5rem;
+    }
+} */

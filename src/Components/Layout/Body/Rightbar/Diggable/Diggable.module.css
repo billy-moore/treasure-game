@@ -1,0 +1,49 @@
+.Diggable {
+    display: grid;
+    grid-area: Diggable;
+    background: #5f588a;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+}
+
+.Coins {
+    display: grid;
+}
+
+.Coins img {
+    max-width: 2rem;
+    padding: .16rem;
+}
+
+.Rocks {
+    display: grid;  
+}
+
+.Rocks img {
+    max-width: 2rem;
+    padding: .16rem;
+}
+
+.Scorpions {
+    display: grid;
+}
+
+.Scorpions img {
+    max-width: 2rem;
+}
+
+/* @media (min-width: 400px){
+    .Diggable {
+        border-top: 4px solid black;
+        border-left: 2px solid black;
+        border-right: 4px solid black;
+    }
+} */

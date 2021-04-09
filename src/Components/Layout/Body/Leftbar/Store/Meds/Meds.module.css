@@ -1,0 +1,26 @@
+.MedsContainer {
+    display: grid;
+    grid-area: Meds;
+
+}
+
+.Icon {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Icon img {
+   height: 50px;
+}
+
+.InfoOff {
+    color: #86a6b2;
+}
+
+/* @media (min-width: 400px){
+
+.Icon img {
+    height: 65%;
+ }
+} */

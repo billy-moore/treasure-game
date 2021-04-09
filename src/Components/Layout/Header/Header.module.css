@@ -1,0 +1,30 @@
+.Header {
+    display: grid;
+    grid-template-columns: 1fr .3fr;
+    grid-template-areas: 'Title Options';
+    grid-area: Header;
+    background-color: #c2602e;
+    color: white;
+    height: 60px;
+}
+
+.Title {
+    display: grid;
+    align-self: center;
+    justify-self: start;
+    padding-left: 1rem;
+    font-family: 'Ultra', serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Options {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.Options img {
+    height: 40px;
+    cursor: pointer;
+}

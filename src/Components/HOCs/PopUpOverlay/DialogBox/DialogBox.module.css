@@ -1,0 +1,130 @@
+.DialogBox {
+    display: grid;
+    grid-area: Body;
+    overflow: scroll;
+    width: 600px;
+    /* height: 410px */
+}
+
+.History h2 {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1rem 0 .5rem 0;
+}
+
+.History {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+.Storyimg {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+    padding-top: 1.5rem;
+
+}
+
+.Storyimg2 {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.Buttondiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'LBtn RBtn';
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.Rules {
+    display: grid;
+    background: #fec35a;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.Rules h3 {
+    padding: 1rem;
+}
+
+.Look {
+    display: grid;
+    background: #39b54a;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.imgBox {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    padding-bottom: 1rem;
+}
+
+.Limg {
+    display: grid;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+}
+
+.Rimg {
+    display: grid;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+}
+
+.text {
+    padding: 1rem;
+}
+
+.Buttondiv {
+    background-color: #915c89;
+}
+
+.Buttondiv button {
+    background: #f26522;
+}
+.LBtn {
+    display: grid;
+    grid-area: LBtn;
+    padding: .5rem;
+}
+
+.RBtn {
+    display: grid;
+    grid-area: RBtn;
+    padding: .5rem;
+}
+
+@media (min-width: 400px){
+    .DialogBox {
+        display: grid;
+        grid-area: Body;
+        overflow: scroll;
+        max-width: 500px;
+        justify-self: center;
+    } 
+}

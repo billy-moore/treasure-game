@@ -1,0 +1,55 @@
+.Shuffle {
+    display: grid;
+    grid-area: Shuffle;
+    font-family: 'Press Start 2P', cursive;
+    background: #8d819c;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.Title {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Button {
+    display: grid;
+    justify-content: center;
+    align-content: top;
+    padding: .4rem;
+}
+.Button button {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background: #5b57a6;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.Button button:hover {
+    background: #8e5ba6;
+    cursor: pointer;
+}
+
+@media (min-width: 400px){
+    .Title {
+        margin: .5rem;
+    }
+    .Shuffle {
+        border-left: 2px solid black;
+        border-right: 4px solid black;
+        border-bottom: 4px solid black;
+    }
+    .Button {
+        padding: .2rem;
+    }
+}

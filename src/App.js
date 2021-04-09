@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ContextProvider } from './Components/HOCs/Context/Context'
+import Layout from './Components/Layout/Layout'
+import "nes.css/css/nes.min.css"
+const App = () => {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className="App">
+        <ContextProvider>
+          <Layout />
+        </ContextProvider>            
+      </div>
+    );
 }
 
 export default App;

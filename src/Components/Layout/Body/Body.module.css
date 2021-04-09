@@ -1,0 +1,31 @@
+.Body {
+    display: grid;
+    width: 600px;
+    grid-area: Body;
+    grid-template-areas:
+    'Mainboard Mainboard Mainboard Mainboard'
+    'Points Points Diggable Diggable'
+    'Shovel Store Health Health'
+    'Shovel Store Shuffle Shuffle';
+    grid-template-rows: 1fr .13fr .13fr .13fr;
+    grid-template-columns: repeat(4, 1fr);
+    background: #fec35a;
+    justify-self: center;
+}
+
+/* @media (max-width: 600px){
+    .Body {
+        display: grid;
+        width: 400px;
+        grid-area: Body;
+        grid-template-areas:
+        'Mainboard Mainboard Mainboard Mainboard Mainboard Mainboard'
+        'Shovel Store Points Points Diggable Diggable '
+        'Shovel Store Health Health Shuffle Shuffle ';
+        grid-template-rows: 1fr .2fr .2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background: #fec35a;
+        max-width: 650px;
+        justify-self: center;
+    }
+} */

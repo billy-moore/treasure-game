@@ -1,0 +1,18 @@
+.Mainboard {
+    display: grid;
+    grid-area: Mainboard;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    height: 410px
+    /* min-height: 290px; */
+}
+
+/* @media (max-width: 600px){
+    .Mainboard{
+        border-top: 4px solid black;
+        border-left: 4px solid black;
+        border-right: 4px solid black;
+    }
+    
+} */

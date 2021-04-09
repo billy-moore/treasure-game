@@ -1,0 +1,35 @@
+.Playboard {
+    display: grid;
+    grid-template-columns: .8fr .8fr .8fr;
+    grid-template-rows: .8fr .8fr .8fr;
+    justify-content: center;
+    align-content: center;
+    /* padding-left: 1rem;
+    padding-top: .5rem; */
+    /* max-width: 99vw; */
+    height: 410px
+}
+
+.Landscape {
+    display: grid;
+    /* justify-self: center; */
+    align-items: center;
+    /* max-width: 90%; */
+    outline: dotted #c3602f 1px;
+}
+
+.Playboard button {
+    background-color: #2bb673;
+}
+.newBtn {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+}
+
+@media (min-width: 400px){
+    .Landscape {
+        height: 8.5rem;
+    }
+}
