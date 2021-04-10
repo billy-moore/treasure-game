@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/treasure-game/static/css/main.98d9453b.chunk.css",
+    "main.css": "/treasure-game/static/css/main.96870b30.chunk.css",
     "main.js": "/treasure-game/static/js/main.88b449d6.chunk.js",
     "main.js.map": "/treasure-game/static/js/main.88b449d6.chunk.js.map",
     "runtime-main.js": "/treasure-game/static/js/runtime-main.3db466ba.js",
@@ -9,10 +9,10 @@
     "static/js/2.9ee113b5.chunk.js": "/treasure-game/static/js/2.9ee113b5.chunk.js",
     "static/js/2.9ee113b5.chunk.js.map": "/treasure-game/static/js/2.9ee113b5.chunk.js.map",
     "index.html": "/treasure-game/index.html",
-    "precache-manifest.471ebc2092e124d783835b3f5c92f2fe.js": "/treasure-game/precache-manifest.471ebc2092e124d783835b3f5c92f2fe.js",
+    "precache-manifest.d259f1a0dc6d61b32b88c16ca5c30665.js": "/treasure-game/precache-manifest.d259f1a0dc6d61b32b88c16ca5c30665.js",
     "service-worker.js": "/treasure-game/service-worker.js",
     "static/css/2.87d4210f.chunk.css.map": "/treasure-game/static/css/2.87d4210f.chunk.css.map",
-    "static/css/main.98d9453b.chunk.css.map": "/treasure-game/static/css/main.98d9453b.chunk.css.map",
+    "static/css/main.96870b30.chunk.css.map": "/treasure-game/static/css/main.96870b30.chunk.css.map",
     "static/js/2.9ee113b5.chunk.js.LICENSE.txt": "/treasure-game/static/js/2.9ee113b5.chunk.js.LICENSE.txt",
     "static/media/Landscape1.png": "/treasure-game/static/media/Landscape1.bd166282.png",
     "static/media/Landscape6.png": "/treasure-game/static/media/Landscape6.3268a09b.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.3db466ba.js",
     "static/css/2.87d4210f.chunk.css",
     "static/js/2.9ee113b5.chunk.js",
-    "static/css/main.98d9453b.chunk.css",
+    "static/css/main.96870b30.chunk.css",
     "static/js/main.88b449d6.chunk.js"
   ]
 }
