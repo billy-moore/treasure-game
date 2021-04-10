@@ -35,7 +35,7 @@
     .Playboard {
         grid-template-columns: .5fr .5fr .5fr;
         grid-template-rows: .5fr .5fr .5fr;
-        height: 355px;
-        max-height: 355px;
+        height: 283px;
+        max-height: 283px;
     }
 }
