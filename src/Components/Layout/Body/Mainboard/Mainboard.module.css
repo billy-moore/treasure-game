@@ -4,16 +4,15 @@
     border-top: 4px solid black;
     border-left: 4px solid black;
     border-right: 4px solid black;
-    height: 410px;
-    max-height: 410px;
+    height: 420px;
+    max-height: 420px;
     /* min-height: 290px; */
 }
 
-/* @media (max-width: 600px){
+@media (max-width: 599px){
     .Mainboard{
-        border-top: 4px solid black;
-        border-left: 4px solid black;
-        border-right: 4px solid black;
+        height: 355px;
+        max-height: 355px;
     }
     
-} */
+}

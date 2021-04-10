@@ -1,31 +1,33 @@
 .Body {
     display: grid;
     width: 600px;
+    max-height: 625px;
     grid-area: Body;
     grid-template-areas:
     'Mainboard Mainboard Mainboard Mainboard'
     'Points Points Diggable Diggable'
     'Shovel Store Health Health'
     'Shovel Store Shuffle Shuffle';
-    grid-template-rows: 410px 55px 80px 80px;
+    grid-template-rows: 420px 55px 80px 80px;
     grid-template-columns: repeat(4, 1fr);
     background: #fec35a;
     justify-self: center;
+    align-self: center;
 }
 
-/* @media (max-width: 600px){
+@media (max-width: 599px){
     .Body {
         display: grid;
-        width: 400px;
+        width: 500px;
+        /* max-height: 335px; */
         grid-area: Body;
         grid-template-areas:
         'Mainboard Mainboard Mainboard Mainboard Mainboard Mainboard'
         'Shovel Store Points Points Diggable Diggable '
         'Shovel Store Health Health Shuffle Shuffle ';
-        grid-template-rows: 1fr .2fr .2fr;
+        grid-template-rows: 355px 80px 80px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         background: #fec35a;
-        max-width: 650px;
         justify-self: center;
     }
-} */
+}

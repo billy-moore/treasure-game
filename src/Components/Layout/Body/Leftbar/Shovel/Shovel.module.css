@@ -4,7 +4,7 @@
     grid-template-rows: 1fr 0.2fr;
     grid-template-areas: 'Shovel''Info';
     background: #fec35a;
-    border-top: 4px solid black;
+    border-top: 2px solid black;
     border-left: 4px solid black;
     border-right: 2px solid black;
     border-bottom: 4px solid black;
@@ -51,11 +51,11 @@
 }
 
 
-@media (min-width: 400px){
+@media (max-width: 599px){
     .Shovel{
         border-left: 4px solid black;
         border-right: 2px solid black;
-        border-top: 1px solid black;
+        border-top: 4px solid black;
         border-bottom: 4px solid black;
     }
     

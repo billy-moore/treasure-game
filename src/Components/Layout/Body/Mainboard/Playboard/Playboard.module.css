@@ -7,8 +7,9 @@
     /* padding-left: 1rem;
     padding-top: .5rem; */
     /* max-width: 99vw; */
-    height: 410px;
-    max-height: 410px;
+    height: 420px;
+    max-height: 420px;
+    overflow:auto;
 }
 
 .Landscape {
@@ -20,6 +21,7 @@
 }
 
 .Playboard button {
+    padding: 10px;
     background-color: #2bb673;
 }
 .newBtn {
@@ -29,8 +31,11 @@
     justify-self: center;
 }
 
-@media (min-width: 400px){
-    .Landscape {
-        height: 8.5rem;
+@media (max-width: 599px){
+    .Playboard {
+        grid-template-columns: .5fr .5fr .5fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        height: 355px;
+        max-height: 355px;
     }
 }
