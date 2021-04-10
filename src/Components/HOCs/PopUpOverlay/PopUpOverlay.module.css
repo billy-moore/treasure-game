@@ -13,6 +13,13 @@
     align-content: center;
     background: black;
     color: white;
+    max-height: 410px;
+}
+
+.Broke img {
+    display: grid;
+    justify-self: center;
+    width: 60%;
 }
 
 .Broke h2 {
@@ -23,9 +30,10 @@
 
 .Broke button{
     display: grid;
-    align-self: end;
+    justify-self: center;
     background: white;
     font-family: 'Press Start 2P', cursive;
+    width: 45%;
 }
 
 .Coins {

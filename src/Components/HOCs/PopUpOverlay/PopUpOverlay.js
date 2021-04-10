@@ -32,8 +32,7 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = {NewGameHandler}>New Game?</button>
                 </div>
             </div>
-    } else 
-    if ( state.shovel === 0 && state.money < 6 ) {
+    } else if ( state.shovel === 0 && state.money < 6 ) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Broke }>
