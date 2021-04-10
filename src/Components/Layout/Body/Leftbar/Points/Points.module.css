@@ -18,6 +18,7 @@
     grid-area: ScoresL;
     justify-self: center;
     align-self: center;
+    
     /* font-size: 1.5rem; */
 }
 
@@ -36,12 +37,15 @@
     grid-area: InfoL;
     justify-self: center;
     align-self: center;
+    font-size: .6rem;
 }
 
 .InfoR {
     display: grid;
     grid-area: InfoR;
     justify-self: center;
+    font-size: .6rem;
+
 }
 
 @media (max-width: 599px){
