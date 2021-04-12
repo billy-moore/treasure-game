@@ -1,9 +1,13 @@
 .DialogBox {
     display: grid;
     grid-area: Body;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    align-self: center;
+    justify-self: center;
     width: 600px;
-    /* height: 410px */
+    max-height: 625px;
+
 }
 
 .History h2 {
@@ -119,12 +123,8 @@
     padding: .5rem;
 }
 
-@media (min-width: 400px){
+@media (max-width: 599px){
     .DialogBox {
-        display: grid;
-        grid-area: Body;
-        overflow: scroll;
-        max-width: 500px;
-        justify-self: center;
+        width: 400px;;
     } 
 }
