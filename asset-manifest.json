@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/treasure-game/static/css/main.aa209ce8.chunk.css",
-    "main.js": "/treasure-game/static/js/main.88b449d6.chunk.js",
-    "main.js.map": "/treasure-game/static/js/main.88b449d6.chunk.js.map",
+    "main.css": "/treasure-game/static/css/main.b47adeaf.chunk.css",
+    "main.js": "/treasure-game/static/js/main.fa49103d.chunk.js",
+    "main.js.map": "/treasure-game/static/js/main.fa49103d.chunk.js.map",
     "runtime-main.js": "/treasure-game/static/js/runtime-main.3db466ba.js",
     "runtime-main.js.map": "/treasure-game/static/js/runtime-main.3db466ba.js.map",
     "static/css/2.87d4210f.chunk.css": "/treasure-game/static/css/2.87d4210f.chunk.css",
     "static/js/2.9ee113b5.chunk.js": "/treasure-game/static/js/2.9ee113b5.chunk.js",
     "static/js/2.9ee113b5.chunk.js.map": "/treasure-game/static/js/2.9ee113b5.chunk.js.map",
     "index.html": "/treasure-game/index.html",
-    "precache-manifest.9ec849ae64094126ec41d668821ac7be.js": "/treasure-game/precache-manifest.9ec849ae64094126ec41d668821ac7be.js",
+    "precache-manifest.b11c7e000353caa53372ea08e6fab392.js": "/treasure-game/precache-manifest.b11c7e000353caa53372ea08e6fab392.js",
     "service-worker.js": "/treasure-game/service-worker.js",
     "static/css/2.87d4210f.chunk.css.map": "/treasure-game/static/css/2.87d4210f.chunk.css.map",
-    "static/css/main.aa209ce8.chunk.css.map": "/treasure-game/static/css/main.aa209ce8.chunk.css.map",
+    "static/css/main.b47adeaf.chunk.css.map": "/treasure-game/static/css/main.b47adeaf.chunk.css.map",
     "static/js/2.9ee113b5.chunk.js.LICENSE.txt": "/treasure-game/static/js/2.9ee113b5.chunk.js.LICENSE.txt",
     "static/media/Landscape1.png": "/treasure-game/static/media/Landscape1.bd166282.png",
     "static/media/Landscape6.png": "/treasure-game/static/media/Landscape6.3268a09b.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.3db466ba.js",
     "static/css/2.87d4210f.chunk.css",
     "static/js/2.9ee113b5.chunk.js",
-    "static/css/main.aa209ce8.chunk.css",
-    "static/js/main.88b449d6.chunk.js"
+    "static/css/main.b47adeaf.chunk.css",
+    "static/js/main.fa49103d.chunk.js"
   ]
 }
