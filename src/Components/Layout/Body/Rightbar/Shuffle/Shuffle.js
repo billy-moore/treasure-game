@@ -16,8 +16,8 @@ const Shuffle = ( props ) => {
         dispatch({type: 'setUpBoard'})
     }
 
-    const buttonOn = <button type = 'button' className = 'nes-btn' onClick = { myShuffleHandler }>Change Map</button>
-    const buttonOff = <button type = 'button' className = 'nes-btn is-disabled' >Change Map</button>
+    const buttonOn = <button type = 'button' className = 'nes-btn' onClick = { myShuffleHandler }>New Map</button>
+    const buttonOff = <button type = 'button' className = 'nes-btn is-disabled' >New Map</button>
     
     return (
 
