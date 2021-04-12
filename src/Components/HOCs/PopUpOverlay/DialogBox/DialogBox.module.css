@@ -5,7 +5,7 @@
     overflow-x: hidden;
     align-self: center;
     justify-self: center;
-    width: 600px;
+    max-width: 600px;
     max-height: 625px;
 
 }
@@ -105,7 +105,7 @@
 }
 
 .Buttondiv {
-    background-color: #915c89;
+    background-color: #000000;
 }
 
 .Buttondiv button {
@@ -125,6 +125,7 @@
 
 @media (max-width: 599px){
     .DialogBox {
-        width: 400px;;
+        width: 400px;
+        max-height: ;
     } 
 }

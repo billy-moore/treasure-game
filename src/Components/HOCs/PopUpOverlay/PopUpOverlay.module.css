@@ -127,34 +127,6 @@
 
 }
 
-.Scorpion {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    background: #fec35a;
-    color: white;
-}
-.Scorpion img {
-    display: grid;
-    justify-self: center;
-    width: 30%;
-}
-.Scorpion h2 {
-    display: grid;
-    color: black;
-    justify-self: center;
-    text-align: center;
-}
-.Scorpion button{
-    display: grid;
-    justify-self: center;
-    align-self: top;
-    background: #bc8cbf;
-    padding: .5rem;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', cursive;
-
-}
 
 .Rock {
     display: grid;
@@ -185,7 +157,41 @@
     color: white;
 }
 
+.Scorpion {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #fec35a;
+    color: white;
+}
+.Scorpion img {
+    display: grid;
+    justify-self: center;
+    width: 30%;
+}
+.Scorpion h2 {
+    display: grid;
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.Scorpion button{
+    display: grid;
+    justify-self: center;
+    align-self: top;
+    background: #bc8cbf;
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+
 @media (max-width: 599px){
+    .Popup {
+        height: 283px;
+        max-height: 283px;
+    }
     .Broke img {
         width: 50%;
     }
