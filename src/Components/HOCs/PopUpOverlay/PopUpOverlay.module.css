@@ -199,3 +199,31 @@
         width: 25%;
     }
 }
+
+@media (max-width: 399px){
+    .Popup {
+        height: 250px;
+        max-height: 250px;
+    }
+    .Broke img {
+        width: 50%;
+    }
+    .Scorpion img {
+        width: 25%;
+    }
+    .Scorpion h2, .Rock h2, .Coins h2, .Broke h2 {
+        font-size: 1.2rem;
+    }
+    .Rock img {
+        width: 30%;
+    }
+
+    .Coins img {
+        width: 40%;
+    }
+
+    .Gold img {
+        width: 25%;
+    }
+
+}

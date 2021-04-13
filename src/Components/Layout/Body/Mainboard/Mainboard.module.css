@@ -16,3 +16,9 @@
     }
     
 }
+
+@media (max-width: 399px){
+   .Mainboard{
+    height: 270px;
+   } 
+}

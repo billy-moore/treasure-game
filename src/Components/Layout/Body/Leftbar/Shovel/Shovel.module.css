@@ -58,5 +58,8 @@
         border-top: 4px solid black;
         border-bottom: 4px solid black;
     }
-    
+    .Info{
+        font-size: .9rem;
+    }
+
 }

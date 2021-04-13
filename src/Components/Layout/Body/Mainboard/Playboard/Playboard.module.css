@@ -40,3 +40,12 @@
         max-height: 283px;
     }
 }
+
+@media (max-width: 399px){
+    .Playboard {
+        grid-template-columns: .5fr .5fr .5fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        height: 250px;
+        max-height: 250px;
+    }
+}

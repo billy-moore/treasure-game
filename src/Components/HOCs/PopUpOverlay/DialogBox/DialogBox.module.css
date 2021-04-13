@@ -5,7 +5,7 @@
     overflow-x: hidden;
     align-self: center;
     justify-self: center;
-    max-width: 600px;
+    max-width: 550px;
     max-height: 625px;
 
 }
@@ -106,6 +106,7 @@
 
 .Buttondiv {
     background-color: #000000;
+
 }
 
 .Buttondiv button {
@@ -114,18 +115,25 @@
 .LBtn {
     display: grid;
     grid-area: LBtn;
-    padding: .5rem;
 }
 
 .RBtn {
     display: grid;
     grid-area: RBtn;
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
 @media (max-width: 599px){
     .DialogBox {
         width: 400px;
-        max-height: ;
     } 
+}
+
+@media (max-width: 399px){
+    .DialogBox {
+        width: 285px;
+    }
+    .RBtn {
+        font-size: 1rem;
+    }
 }
