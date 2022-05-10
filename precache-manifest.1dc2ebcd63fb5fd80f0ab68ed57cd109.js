@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccfa20959371e8083614a1010bc884ce",
+    "revision": "d72d386d5ceb1c42195d5f13686e0b77",
     "url": "/treasure-game/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/treasure-game/static/css/2.87d4210f.chunk.css"
   },
   {
-    "revision": "7e7de5d8a66ad4cde470",
-    "url": "/treasure-game/static/css/main.f4a29409.chunk.css"
+    "revision": "70554421d639c7333c3e",
+    "url": "/treasure-game/static/css/main.fff2307c.chunk.css"
   },
   {
     "revision": "30b0c54d3b124b2e61c2",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/treasure-game/static/js/2.9ee113b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e7de5d8a66ad4cde470",
-    "url": "/treasure-game/static/js/main.0f91e0b4.chunk.js"
+    "revision": "70554421d639c7333c3e",
+    "url": "/treasure-game/static/js/main.6bac0e24.chunk.js"
   },
   {
     "revision": "e53060ac5497c40cdc59",
