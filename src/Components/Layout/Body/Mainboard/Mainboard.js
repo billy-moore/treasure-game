@@ -19,32 +19,32 @@ const Mainboard = () => {
         return <div className = { classes.Mainboard }>
                     <PopUpOverlay />
                 </div>
-    } else if ( state.shovel === 0 && state.money < 6 ){
+    } if ( state.shovel === 0 && state.money < 6 ){
         //setPopUp(true)
         return <div className = { classes.Mainboard }>
                     <PopUpOverlay />
                 </div>
-    } else if ( getLast.name === 'coin' && state.popUpDisplay === true){
+    } if ( getLast.name === 'coin' && state.popUpDisplay === true){
        // setPopUp(true)
         return <div className = { classes.Mainboard }>
                     <PopUpOverlay />
                 </div>
-    } else if ( getLast.name === 'gold' && state.popUpDisplay === true){
+    } if ( getLast.name === 'gold' && state.popUpDisplay === true){
        // setPopUp(true)
         return <div className = { classes.Mainboard } >
                     <PopUpOverlay />
                 </div>
-    } else if ( getLast.name === 'rock' && state.popUpDisplay === true){
+    } if ( getLast.name === 'rock' && state.popUpDisplay === true){
         // setPopUp(true)
          return <div className = { classes.Mainboard } >
                      <PopUpOverlay />
                  </div>
-     } else if ( getLast.name === 'scorpion' && state.popUpDisplay === true){
+     } if ( getLast.name === 'scorpion' && state.popUpDisplay === true){
         // setPopUp(true)
          return <div className = { classes.Mainboard } >
                      <PopUpOverlay />
                  </div>
-     } else if (state.popUpDisplay === false){
+     } if (state.popUpDisplay === false){
         return <div className = { classes.Mainboard }>
                     <Playboard />
                 </div>

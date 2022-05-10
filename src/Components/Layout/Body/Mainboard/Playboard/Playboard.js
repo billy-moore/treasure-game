@@ -23,27 +23,34 @@ const Playboard = () => {
             dispatch(state.display = [...state.display, i, {...item}])
             dispatch(state.popUpDisplay = true)
             console.log(state.shovel)
-        } else if (item.name === 'rock'){
+        }
+        if (item.name === 'rock'){
 
             dispatch({type: 'minusRock'})
             dispatch(state.shovel = state.shovel + item.value)
             dispatch(state.display = [...state.display, i, {...item}])
             dispatch(state.popUpDisplay = true)
             console.log(state.shovel)
-        } else if ( item.name === 'scorpion'){
+        } 
+        
+        if ( item.name === 'scorpion'){
 
             dispatch({type: 'minusScorpion'})
             dispatch(state.health = state.health + item.value)
             dispatch(state.display = [...state.display, i, {...item}])
             dispatch(state.popUpDisplay = true)
             console.log(state.shovel)
-        } else if (item.name === 'empty') {
+        } 
+        
+        if (item.name === 'empty') {
 
             dispatch({type: 'emptyHanded'})
             dispatch(state.shovel = state.shovel - 1)
             dispatch(state.display = [...state.display, i, {...item}])
             console.log(state.shovel)
-        } else if (state.shovel === 0 && state.money < 6) {
+        }
+        
+        if (state.shovel === 0 && state.money < 6) {
 
             dispatch(state.popUpDisplay = true)
             console.log(state.shovel)

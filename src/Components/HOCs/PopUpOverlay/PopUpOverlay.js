@@ -32,7 +32,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = {NewGameHandler}>New Game?</button>
                 </div>
             </div>
-    } else if ( state.shovel === 0 && state.money < 6 ) {
+    }
+    
+    if ( state.shovel === 0 && state.money <= 5 ) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Broke }>
@@ -41,7 +43,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = {NewGameHandler}>New Game?</button>
                 </div>
             </div>
-    } else if ( getLast.name === 'coin' ) {
+    }
+    
+    if ( getLast.name === 'coin' ) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Coins }>
@@ -50,7 +54,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = { goBack }>Money +3</button>
                 </div>
             </div>
-    }  else if ( getLast.name === 'gold' ) {
+    }
+    
+    if ( getLast.name === 'gold' ) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Gold }>
@@ -59,7 +65,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = { goBack }>Money +5</button>
                 </div>
             </div>
-    } else if ( getLast.name === 'scorpion' && state.health > 0) {
+    }
+    
+    if ( getLast.name === 'scorpion' && state.health > 0) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Scorpion }>
@@ -68,7 +76,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = { goBack } >Health -1</button>
                 </div>
             </div>
-    } else if ( getLast.name === 'scorpion' && state.health <= 0) {
+    }
+    
+    if ( getLast.name === 'scorpion' && state.health <= 0) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Scorpion }>
@@ -77,7 +87,9 @@ const youDied = () => {
                     <button className = {'nes-btn'} onClick = { youDied } >Health -1</button>
                 </div>
             </div>
-    } else if ( getLast.name === 'rock' ) {
+    }
+    
+    if ( getLast.name === 'rock' ) {
         //dispatch(state.popUpDisplay = true)
         return <div className = { classes.Popup }>
                 <div className = { classes.Rock }>
